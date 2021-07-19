@@ -1,0 +1,30 @@
+{
+    "name": "silici0/facebook-api",
+    "description": "Laravel Wrapper around facebook API SDK",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Rafael Cunha",
+            "email": "silici0@gmail.com"
+        }
+    ],
+    "require": {
+        "facebook/php-business-sdk": ">=5.0.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "silici0\\FacebookApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "silici0\\FacebookApi\\FacebookApiServiceProvider"
+            ],
+            "aliases": {
+                "FacebookApi": "silici0\\FacebookApi\\Facades\\FacebookApi"
+            }
+        }
+    }
+}
