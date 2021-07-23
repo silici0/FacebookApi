@@ -5,7 +5,7 @@ This library provides an objected-oriented wrapper of the PHP classes to send CR
 ## Installation
 
 ```
-composer require silici0/FacebookApi:dev-master
+composer require silici0/facebook-api:dev-master
 ```
 
 ## Publish Conf File
